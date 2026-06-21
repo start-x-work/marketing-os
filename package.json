@@ -1,6 +1,6 @@
 {
   "name": "@start-x-work/marketing-os",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "type": "module",
   "license": "Apache-2.0",
@@ -25,9 +25,9 @@
     "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
-    "@start-x-work/mos-ads": "file:../marketing-os-ads/packages/cli",
-    "@start-x-work/mos-seo": "file:../marketing-os-seo/packages/cli",
-    "@start-x-work/mos-social": "file:../marketing-os-social/packages/cli",
+    "@start-x-work/mos-ads": "^0.1.2",
+    "@start-x-work/mos-seo": "^1.1.1",
+    "@start-x-work/mos-social": "^0.1.1",
     "citty": "^0.2.2",
     "picocolors": "^1.1.1"
   },

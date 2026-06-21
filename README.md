@@ -10,6 +10,8 @@ npx @start-x-work/marketing-os social post evaluate "Hello world" --platform x
 
 Each pillar remains available standalone as `@start-x-work/mos-seo`, `mos-ads`, and `mos-social`.
 
+**Quickstart:** [docs/QUICKSTART.md](./docs/QUICKSTART.md) — 横断入口と各 Web BYOK リンク
+
 ## Scope
 
 Decision support only — diagnosis, evaluation, and structured logs. No auto posting, auto submission, or auto budget changes.
