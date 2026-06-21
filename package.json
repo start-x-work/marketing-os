@@ -1,0 +1,40 @@
+{
+  "name": "@start-x-work/marketing-os",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "license": "Apache-2.0",
+  "description": "Marketing-OS unified CLI — diagnosis and evaluation across SEO, Ads, and Social",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/start-x-work/marketing-os.git"
+  },
+  "homepage": "https://github.com/start-x-work/marketing-os",
+  "bin": {
+    "marketing-os": "./dist/index.cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@start-x-work/mos-ads": "file:../marketing-os-ads/packages/cli",
+    "@start-x-work/mos-seo": "file:../marketing-os-seo/packages/cli",
+    "@start-x-work/mos-social": "file:../marketing-os-social/packages/cli",
+    "citty": "^0.2.2",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.7"
+  }
+}
