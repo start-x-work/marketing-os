@@ -34,4 +34,6 @@ npx @start-x-work/marketing-os social post evaluate "Hello" --platform x
 
 各 pillar は npm 単体でも利用可能です。組織規模の運用・伴走は [Marketing-OS 商用](https://marketing-os.jp) を参照してください。
 
+需要予測（NBD ＋ BP-10）の数理モデルは [Forecast Manifesto](https://github.com/start-x-work/forecast-manifesto)（`@forecast-manifesto/solver`）として公開しています。
+
 Manifesto: [start-x-work/manifesto](https://github.com/start-x-work/manifesto)

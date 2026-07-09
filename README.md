@@ -18,6 +18,8 @@ Decision support only — diagnosis, evaluation, and structured logs. No auto po
 
 Manifesto: [start-x-work/manifesto](https://github.com/start-x-work/manifesto)
 
+Forecast Manifesto (需要予測 OSS — NBD + BP-10 solver): [start-x-work/forecast-manifesto](https://github.com/start-x-work/forecast-manifesto)
+
 Commercial Marketing-OS: [marketing-os.jp](https://marketing-os.jp)
 
 ## Development
